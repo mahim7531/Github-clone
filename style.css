@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #0d1117;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #161b22;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #c9d1d9;
+  font-size: 14px;
+}
+
+.navbar nav a:hover {
+  color: white;
+}
+
+.auth-buttons a {
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login {
+  color: #c9d1d9;
+}
+
+.signup {
+  padding: 8px 16px;
+  background-color: #238636;
+  border-radius: 6px;
+  color: white;
+}
+
+.signup:hover {
+  background-color: #2ea043;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #8b949e;
+  margin-bottom: 30px;
+}
+
+.hero-buttons .btn-primary,
+.hero-buttons .btn-secondary {
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.btn-primary {
+  background-color: #238636;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #2ea043;
+}
+
+.btn-secondary {
+  border: 1px solid #30363d;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #21262d;
+}
+
+/* Features Section */
+.features {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background-color: #161b22;
+  padding: 30px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 250px;
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  background-color: #1f2937;
+}
+
+.feature-card h3 {
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #161b22;
+  color: #8b949e;
+}
